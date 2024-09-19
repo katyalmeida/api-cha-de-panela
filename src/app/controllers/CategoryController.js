@@ -32,7 +32,7 @@ class CategoryController {
       return response.status(500).json({ error: "Internal Server Error" });
     }
   }
-  async index(response) {
+  async index(request, response) {
     const categoryAll = await Category.findAll();
 
     return response.status(200).json(categoryAll);
