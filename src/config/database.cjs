@@ -3,7 +3,7 @@ const pg = require("pg");
 module.exports = {
   dialect: "postgres",
   dialectModule: pg,
-  url: "postgresql://postgres:UpTMyBOEOZIfOQapQBMUUodkZeyhOFTd@postgres.railway.internal:5432/railway",
+  url: "postgresql://postgres:UpTMyBOEOZIfOQapQBMUUodkZeyhOFTd@junction.proxy.rlwy.net:10299/railway",
 
   define: {
     timespamps: true,
