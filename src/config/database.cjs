@@ -6,7 +6,7 @@ module.exports = {
   url: "postgresql://postgres:tNpnDsNGMVKKpPFBlZHirqpvlAtsXxLi@sakura.proxy.rlwy.net:27500/railway",
 
   define: {
-    timespamps: true,
+    timestamps: true,
     underscored: true,
     underscoredAll: true,
   },
