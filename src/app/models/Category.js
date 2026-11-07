@@ -17,7 +17,7 @@ class Category extends Model {
   static associate(models) {
     this.hasMany(models.Products, {
       foreignKey: "category_id",
-      as: "products",
+      as: "Products",
     });
   }
 }
