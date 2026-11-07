@@ -1,9 +1,9 @@
 const pg = require("pg");
 
 module.exports = {
+  url: "postgresql://postgres:tNpnDsNGMVKKpPFBlZHirqpvlAtsXxLi@sakura.proxy.rlwy.net:27500/railway",
   dialect: "postgres",
   dialectModule: pg,
-  url: "postgresql://postgres:tNpnDsNGMVKKpPFBlZHirqpvlAtsXxLi@sakura.proxy.rlwy.net:27500/railway",
 
   define: {
     timestamps: true,
