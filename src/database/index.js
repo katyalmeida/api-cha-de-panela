@@ -11,7 +11,9 @@ class Database {
   }
 
   init() {
-    this.conection = new Sequelize(configDataBase);
+    const { url, ...options } = configDataBase;
+
+    this.conection = new Sequelize(url, options);
     models
       .map((model) => model.init(this.conection))
       .map(
