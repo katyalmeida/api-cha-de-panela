@@ -15,7 +15,7 @@ const corsConfig = {
 class App {
   constructor() {
     this.app = express();
-    this.app.use(cors());
+    this.app.use(cors(corsConfig));
     this.middlewares();
     this.routes();
   }
